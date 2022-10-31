@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    
+    <div class="content">
+        <medium id="h1">Creating New WallPapers</medium>
+        <h1>Coming Soon</h1>
+        <h2 id="h2">Time Left</h2>
+
+    </div>
+
+    <script>
+        let s;
+let s1;
+let s2;
+setInterval(() => {
+    s1 = "Please Have Patience";
+    document.getElementById('h2').innerHTML = s1;
+}, 1000);
+setInterval(() => {
+
+    s = "Coming Soon";
+    document.getElementById('h2').innerHTML = s;
+}, 3000);
+setInterval(() => {
+
+s2 = "Coming Soon........";
+document.getElementById('h1').innerHTML = s2;
+}, 4000);
+    </script>
+</body>
+</html>

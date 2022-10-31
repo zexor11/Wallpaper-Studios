@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    color: #fbfcfd;
+    font-size: x-large;
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+body {
+    background-image: url('w5.jpg');
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zexor7 Studios</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<div class="container">
+    <div class="navbar">
+        <img class="logo" src="logo.jpg" alt="Home" title="Logo">
+        <nav>
+            <ul id="menuList">
+                <li><a href="Page1.html">Home</a></li>
+                <li><a href="index.html">Shop</a></li>
+                <li><a href="page2.html">WallPapers</a></li>
+                
+            </ul>
+        </nav>
+        <img class="menu" src="menu.png" alt="Menu" onclick="togglemenu()">
+    </div>
+
+    <div class="row">
+        <div class="col1">
+            <h2>Zexor7's <br> Studios</h2>
+            <h3 id="k1">Animated Wallpapers</h3>
+            <p>(Always have a good wallpaper)</p>
+            <h4>$ 0</h4>
+            <a href="page2.html"><button type="button">Wallpaper <img src="arrow.jpg"></button></a>
+        </div>
+        <div class="col2">
+            <img src="w8.jpg" class="cont">
+            <div class="zs">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+    function togglemenu() {
+        if (menuList.style.maxHeight == "0px") {
+
+            menuList.style.maxHeight = "130px";
+        }
+
+        else {
+            menuList.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+
+</body>
+
+</html>
